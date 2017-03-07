@@ -1,0 +1,27 @@
+{
+    "name": "micropixel",
+    "version": "0.1.1",
+    "description": "Proto-PIC microPixel driver",
+    "license": "MIT",
+    "dependencies": {
+        "core": "*"
+    },
+    "files": [
+        "README.md",
+        "micropixel.ts",
+        "sendbuffer.asm"
+    ],
+    "testFiles": [
+        "microtest.ts"
+    ],
+    "yotta": {
+        "config": {
+            "microbit-dal": {
+                "bluetooth": {
+                    "enabled": 0
+                }
+            }
+        }
+    },
+    "public": true
+}
