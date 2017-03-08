@@ -375,7 +375,7 @@ namespace micropixel {
         strip.start = 0;
         strip._length = numleds;
         strip._mode = mode;
-        strip.setBrigthness(255)
+        strip.setBrigthness(32)
         strip.setPin(pin)
         return strip;
     }
