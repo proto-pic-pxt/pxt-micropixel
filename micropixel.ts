@@ -193,6 +193,10 @@ namespace micropixel {
         //% weight=59
         //% parts="micropixel" advanced=true
         setBrigthness(brightness: number): void {
+            if brightness > 0x3f 
+{
+	brightness = 0x3f
+}
             this.brightness = brightness & 0x3f;
         }
 
