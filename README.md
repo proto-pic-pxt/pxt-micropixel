@@ -1,6 +1,6 @@
 # microPixel driver
 
-This library provides a driver for various micro Pixel LED products, 
+This library provides a driver for various micro Pixel LED products from Proto-PIC, 
 
 microPixels consist of a number of RGB LEDs, every one of them controlled separately.  
 
@@ -21,7 +21,7 @@ strip.setPixelColor(3, 0, 0, 255)     // blue
 strip.show()
 ```
 
-Use `strip.setBrigthness()` to lower the brightness (it's maxed out by default).
+Use `strip.setBrigthness()` to lower the brightness (it's maxed out by default to 32), we have updated this to allow a max brightness of 32 - this limits the draw on the micro bit voltage regulator.
 
 Use `strip.shift()` or `strip.rotate()` to shift the lights around.
 
