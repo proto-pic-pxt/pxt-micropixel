@@ -91,7 +91,9 @@ while (true) {
 
 ## Supported targets
 
-* for PXT/microbit
+<a href="https://proto-pic.co.uk/product/micropixel-4x8-ws2812b-board-for-bbc-microbit/" target="_blank" rel="noopener">micro:pixel</a>
+
+<a href="https://proto-pic.co.uk/product/micropixel-edge-for-microbit/" target="_blank" rel="noopener">micro:pixel edge</a>
 
 ## License
 
